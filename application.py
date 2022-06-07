@@ -1,15 +1,15 @@
 from flask import Flask, request
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/',methods=["GET", "POST"])
 def hello_world():
     return "Hello World!"
 
-@app.route('/flask')
+@app.route('/flask',methods=["GET", "POST"])
 def hello_sample():
     return "Hello Flask."
 
-@app.route('/user/<user_id>')
+@app.route('/user/<user_id>',methods=["GET", "POST"])
 def hello_person(user_id):
     return "Hello " + user_id
 
