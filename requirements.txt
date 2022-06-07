@@ -1,0 +1,11 @@
+jupyterlab
+notebook
+voila
+numpy
+pandas
+matplotlib
+scikit-learn
+flask
+line-bot-sdk 
+azure-cognitiveservices-vision-face
+msrestazure
